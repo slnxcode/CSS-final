@@ -5,6 +5,9 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 .section1 {
     flex: 1;
@@ -21,7 +24,7 @@ main {
 }
 .logo {
     flex: 1;
-    font-size: 26px;
+    font-size: 30px;
     color: #faf9f8;
     font-weight: bold;
 }
@@ -64,13 +67,14 @@ main {
     color: #e5e7eb;
 }
 .cont1 button {
-    padding: 5px 20px;
-    width: 18%;
+    padding: 7px 10px;
+    width: 20%;
     border: 1px solid gray;
     border-radius: 5px;
     background-color: #3882f6;
     color: white;
     font-weight: bold;
+    font-size: 14px;
 }
 .cont1 button:hover {
     background-color: blue;
@@ -203,6 +207,7 @@ main {
     margin: 80px 150px;
     border-radius: 7px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 20%;
@@ -232,4 +237,17 @@ main {
 }
 .section5 {
     flex: 1;
+    background-color:#1f2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt5 {
+    height: 30%;
+    width: 30%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
 }
